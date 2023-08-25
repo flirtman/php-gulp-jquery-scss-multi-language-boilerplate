@@ -1,0 +1,25 @@
+//.container {
+//    @include body-container(16, 16, 3);
+//
+//    .segment-left {
+//        @include segment(1, 9, 1, -1);
+//        font-size: 4rem;
+//    }
+//
+//    .segment-right {
+//        @include segment(9, -1, 1, -1);
+//
+//        #test2 {
+//            @include text-neon;
+//            @include box-neon;
+//
+//            font-size: 4rem;
+//            text-align: center;
+//        }
+//    }
+//}
+
+h1 {
+  color: green;
+  text-transform: capitalize;
+}

@@ -1,0 +1,41 @@
+{
+    "name": "gulp-with-php",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.babel.js",
+    "scripts": {
+        "dev": "gulp dev",
+        "publish": "gulp publish"
+    },
+    "browserslist": [
+        "chrome > 0",
+        "ie > 0",
+        "firefox > 0"
+    ],
+    "type": "module",
+    "author": "josh2kv",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.15.0",
+        "@babel/plugin-transform-runtime": "^7.16.4",
+        "@babel/preset-env": "^7.15.0",
+        "@babel/register": "^7.15.3",
+        "@babel/runtime": "^7.16.3",
+        "babelify": "^10.0.0",
+        "browser-sync": "^2.27.5",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-bro": "^2.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect-php": "^1.0.3",
+        "gulp-csso": "^4.0.1",
+        "gulp-image": "^6.2.1",
+        "gulp-sass": "^5.0.0",
+        "node-sass": "^6.0.1",
+        "uglifyify": "^5.0.2"
+    },
+    "dependencies": {
+        "jquery": "^3.7.0"
+    }
+}
