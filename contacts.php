@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Gulp With PHP</title>
+
+    <?php include_once './view/utils/head.php'; ?>
 </head>
 
 <body>
@@ -16,7 +18,7 @@
 <h1><?= __('Contacts') ?></h1>
 
 
-<script src="./js/main.js"></script>
+<?php include_once './view/utils/general-scripts.php'; ?>
 </body>
 
 </html>
