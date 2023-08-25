@@ -4,7 +4,7 @@ Gulp boilerplate for PHP project
 
 ### Work on : http://127.0.0.1:8000/ OR http://localhost:3000/
 
-#### NVM : 17.1.0
+#### NVM : 17.8.0
 
 ### Getting Started
 
