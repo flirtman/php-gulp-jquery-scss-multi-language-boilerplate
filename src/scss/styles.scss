@@ -2,18 +2,9 @@
 
 @font-face {
     font-family: NanumSquareL;
-    src: url(../fonts/NanumSquareL.ttf) format('truetype');
+    src: url(../../fonts/NanumSquareL.ttf) format('truetype');
 }
 
-@import './helpers/mixins';
-
-@import './base/reset';
-@import './base/variables';
-@import './base/typography';
-
 @import './components/TopNav';
-@import './components/buttons';
-
-@import './layouts/container';
 
 @import './pages/main';
