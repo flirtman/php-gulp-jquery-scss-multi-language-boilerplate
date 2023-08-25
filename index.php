@@ -17,6 +17,7 @@
 <?php include_once './view/components/TopNav.php'; ?>
 <h1><?= __('Home') ?></h1>
 
+
 <?php if($_SESSION['lang'] === 'en') { ?>
     <p><strong>This is text on English</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam facilis fuga omnis quibusdam vel. Animi consequuntur cum deleniti eius explicabo incidunt iste, mollitia necessitatibus nesciunt, nulla officiis quaerat reiciendis?</p>
 <?php } ?>

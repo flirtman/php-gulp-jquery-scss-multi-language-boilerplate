@@ -14,5 +14,13 @@
     margin: 0;
     gap: 25px;
     padding: 25px 0;
+
+    a {
+      text-decoration: none;
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
