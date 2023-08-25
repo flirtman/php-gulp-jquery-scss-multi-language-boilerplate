@@ -54,7 +54,3 @@ Gulp boilerplate for PHP project
     ```sh
     npm run publish
     ```
-
-### Test page image
-
-![image](https://user-images.githubusercontent.com/79514508/144784823-b94253dc-972a-4f2c-8131-513fd47f1d1b.png)
